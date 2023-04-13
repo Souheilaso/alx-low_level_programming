@@ -12,39 +12,31 @@
  *
  * Return: pointer allocate new size memory, or NULL
  */
+
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	char *novoPtr, *old_ptr;
+	char *p, *theptr;
 	unsigned int i;
 
-	if (new_size == 0 && ptr != NULL)
+	theptr = (char *)ptr;
+	if (new_size == 0 && theptr != NULL)
 	{
 		free(ptr);
 		return (NULL);
 	}
-
 	if (old_size == new_size)
 	{
 		return (ptr);
 	}
-
-	if (new_size == old_size)
-	{
-		return (ptr);
-	}
-	novoPtr = malloc(new_size);
-	if (novoPtr == NULL)
+	p = malloc(new_size);
+	if (p == NULL)
 	{
 		return (NULL);
 	}
-
-	old_ptr = ptr;
-
-	for (i = 0; i < old_size && i < new_size; i++)
+	for (i = 0; theptr != NULL && i < old_size && i < new_size; i++)
 	{
-		novoPtr[i] = old_ptr[i];
+		p[i] = theptr[i];
 	}
-
-	free(ptr);
-	return (novoPtr);
+	free(theptr);
+	return (p);
 }
