@@ -4,14 +4,14 @@
 #include <string.h>
 
 /**
- * string_nconcat - concatenate two strings
- * @s1: first string
- * @s2: second string
+ * string_nconcat - a function that concatenates two strings.
+ *
+ * @s1: first char
+ * @s2: secound char
  * @n: unsigned int
  *
- * Return: a pointer if successful, or NULL if fails
+ * Return: If the function fails, it should return NULL
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *outcome;
