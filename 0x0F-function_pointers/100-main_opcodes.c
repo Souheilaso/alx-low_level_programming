@@ -3,8 +3,8 @@
 
 /**
  * print_opcodes - print the opcodes of this program
- * @a: address 
- * @n: number 
+ * @a: address
+ * @n: number
  *
  * Return: void
  */
@@ -24,7 +24,7 @@ void print_opcodes(char *a, int n)
 
 /**
  * main - prints the opcodes of its own main function
- * @argc: number 
+ * @argc: number
  * @argv: array of pointers to arguments
  *
  * Return: always O
