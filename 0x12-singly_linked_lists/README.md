@@ -16,4 +16,4 @@ At the end of this project, you are expected to be able to  [explain to anyone](
 -   You are not allowed to publish any content of this project.
 -   Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
-[Souheila Sidennas](https://github.com/Souheilaso
+[Souheila Sidennas](https://github.com/Souheilaso)
