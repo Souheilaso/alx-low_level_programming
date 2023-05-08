@@ -6,6 +6,7 @@
  * @filename: filename/ path
  * @letters: number of letters to be printed
  * Return: actual number of letters printed
+ *
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
