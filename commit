@@ -1,0 +1,3 @@
+#!/bin/bash
+ls | grep "^0x" | xargs -I "()" sh -c 'git add "()" && git commit -m "()"'
+git push
